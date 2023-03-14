@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "415252590344",
+    "project_id": "ananke-3c888",
+    "storage_bucket": "ananke-3c888.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415252590344:android:f909a699e7c86f3cbd06bd",
+        "android_client_info": {
+          "package_name": "fr.cecilerambaud.ananke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415252590344-d0em4vk0aeb420857nd15n4nki8v7fsr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAou-r3Dcq_kWYzuFN8qe-Z7RdkJnohDUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415252590344-d0em4vk0aeb420857nd15n4nki8v7fsr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

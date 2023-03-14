@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/women_background_2"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/default_10"
+        android:background="@color/transparentDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                // PHOTO
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corner_radius_image"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageButton
+                        android:id="@+id/preview_image"
+                        android:layout_width="2dp"
+                        android:layout_height="2dp"
+                        android:visibility="invisible"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/preview_image"
+                        android:text="@string/add_woman_page_upload_button"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/upload_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_style_full"
+                        android:padding="@dimen/default_10"
+                        android:textSize="18sp"
+                        android:text="@string/add_woman_page_upload_button"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:theme="@style/DefaultTextStyle"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/default_10"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+                    // PRENOM
+                    <TextView
+                        android:layout_marginTop="@dimen/default_30"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:theme="@style/AddFormStyle"
+                        android:text="@string/add_woman_page_first_name_input"/>
+
+                    <EditText
+                        android:id="@+id/hint_first_name_woman"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:paddingLeft="@dimen/default_10"
+                        android:background="@color/white"
+                        android:textColor="@color/black"
+                        android:theme="@style/DefaultTextStyle" />
+
+                    // NOM
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/default_30"
+                        android:theme="@style/AddFormStyle"
+                        android:text="@string/add_woman_page_last_name_input"/>
+                    <EditText
+                        android:id="@+id/hint_last_name_woman"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:paddingLeft="@dimen/default_10"
+                        android:textColor="@color/black"
+                        android:background="@color/white"
+                        android:theme="@style/DefaultTextStyle" />
+
+
+                    // NATIONNALITE
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/default_30"
+                        android:theme="@style/AddFormStyle"
+                        android:text="@string/add_woman_page_nationality_input"/>
+
+
+                    // DATES
+
+                    <EditText
+                        android:id="@+id/hint_nationality_woman"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/white"
+                        android:paddingLeft="@dimen/default_10"
+                        android:textColor="@color/black"
+                        android:theme="@style/DefaultTextStyle" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/default_30"
+                        android:theme="@style/AddFormStyle"
+                        android:text="@string/add_woman_page_birth_input"/>
+                    <EditText
+                        android:id="@+id/hin_birth_woman"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:paddingLeft="@dimen/default_10"
+                        android:textColor="@color/black"
+                        android:background="@color/white"
+                        android:theme="@style/DefaultTextStyle"/>
+
+
+                    // DOMAINE
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/default_20"
+                        android:theme="@style/AddFormStyle"
+                        android:text="@string/add_woman_page_activity_input"/>
+                    <Spinner
+                        android:id="@+id/spinner_activity_woman"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:background="@color/white"
+                        android:entries="@array/add_woman_activity_spinner_input"
+                        android:theme="@style/DefaultTextStyle" />
+
+
+                    // DESCRIPTION
+                    <TextView
+                        android:id="@+id/hint_description_woman"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/default_20"
+                        android:theme="@style/AddFormStyle"
+                        android:text="@string/add_woman_page_description_input"/>
+                    <EditText
+                        android:id="@+id/hint_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:paddingLeft="@dimen/default_10"
+                        android:textColor="@color/black"
+                        android:inputType="textMultiLine"
+                        android:textAlignment="textStart"
+                        android:background="@color/white"
+                        android:theme="@style/DefaultTextStyle"/>
+
+
+                    // BOUTON CONFIRMATION
+                    <Button
+                        android:id="@+id/confirm_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/add_woman_page_confirm_button"
+                        android:background="@drawable/button_style_full"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="@dimen/default_20"
+                        android:layout_marginBottom="@dimen/default_80"
+                        android:textAlignment="center"
+                        android:theme="@style/DefaultTextStyle"
+                        android:paddingTop="@dimen/default_20"
+                        android:paddingBottom="@dimen/default_20"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+
+    <!-- CURRENT TEXT -->
+    <style name="DefaultTextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFamily">@font/rondal</item>
+    </style>
+
+    <!-- SUBTITLE -->
+    <style name="SubtitleTextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/sanford</item>
+    </style>
+
+    <!-- TITLE -->
+    <style name="TitleTextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">33sp</item>
+        <item name="android:letterSpacing">0.3</item>
+        <item name="android:fontFamily">@font/gangitem</item>
+    </style>
+
+    <!-- Style BOTTOM NAVIGATION MENU -->
+    <style name="BottomNavigationStyle" parent="Widget.Design.BottomNavigationView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/altone</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Style ADD FORM -->
+    <style name="AddFormStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:fontFamily">@font/rondal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Style DAY -->
+    <style name="Theme.Ananke" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

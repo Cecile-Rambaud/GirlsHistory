@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable-anydpi/ic_activity.xml" value="0.2703125" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable-anydpi/ic_add.xml" value="0.2703125" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable-anydpi/ic_close.xml" value="0.209375" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable-anydpi/ic_date.xml" value="0.2703125" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable-anydpi/ic_delete.xml" value="0.209375" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable-anydpi/ic_favorite.xml" value="0.17239583333333333" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable-anydpi/ic_nationality.xml" value="0.2703125" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable-anydpi/ic_password.xml" value="0.2546875" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable-anydpi/ic_search.xml" value="0.2234375" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable-anydpi/ic_unfavorite.xml" value="0.14635416666666667" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable-anydpi/ic_user.xml" value="0.2546875" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable/backgroud_nav_bottom.xml" value="0.2546875" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable/background_gradient.xml" value="0.2703125" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable/background_nav_bottom.xml" value="0.2546875" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable/bottom_nav_color.xml" value="0.2234375" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable/bottom_nav_menu.xml" value="0.2703125" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable/button_close_style.xml" value="0.2703125" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable/button_input_style.xml" value="0.2546875" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable/button_nav_bottom_style.xml" value="0.2546875" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable/button_round_style.xml" value="0.2703125" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable/button_style_fill.xml" value="0.2703125" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable/button_style_full.xml" value="0.2171875" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable/corner_radius_image.xml" value="0.19270833333333334" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable/corners_radius.xml" value="0.2703125" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable/inner_shadow.xml" value="0.2703125" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable/input_style.xml" value="0.2703125" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/drawable/out_shadow.xml" value="0.2703125" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/fragment_add_planet.xml" value="0.22826086956521738" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/fragment_add_woman.xml" value="0.2448474855729596" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/fragment_collection.xml" value="0.264" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/fragment_see_all.xml" value="0.176" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/fragment_user_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/item_horizontal_planet.xml" value="0.4" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/item_horizontal_women.xml" value="0.31791530944625407" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/item_see_all_woman.xml" value="0.4" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/item_user_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/item_vertical_planet.xml" value="0.2" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/item_vertical_women.xml" value="1.0" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/popup_planets_details.xml" value="0.32232841007819285" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/layout/popup_women_details.xml" value="0.264" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.23854166666666668" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/Ananke/app/src/main/res/menu/top_search_bar.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

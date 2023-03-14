@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_10">10dp</dimen>
+    <dimen name="default_20">20dp</dimen>
+    <dimen name="default_30">30dp</dimen>
+    <dimen name="default_50">50dp</dimen>
+    <dimen name="default_80">80dp</dimen>
+    <dimen name="default_100">100dp</dimen>
+</resources>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Girls&amp;History</string>
+
+    <!-- ACCUEIL -->
+    <string name="home_page_title">A la une ajourd\'hui</string>
+    <string name="home_page_last_women_section_1">A la une aujourd\'hui</string>
+    <string name="home_page_last_women_section_2">A découvrir</string>
+    <string name="see_all_page_title">Tout découvrir</string>
+
+    <string name="user_profile_page_title">Profil</string>
+
+    <!-- FAVORIS -->
+    <string name="collection_page_title">Collection</string>
+
+    <!-- CONTRIBUTION -->
+    <string name="add_woman_page_title">Ajouter</string>
+    <string name="add_woman_page_upload_button">Charger une image</string>
+    <string name="add_woman_page_first_name_input">Prénom :</string>
+    <string name="add_woman_page_last_name_input">Nom :</string>
+    <string name="add_woman_page_nationality_input">Nationnalité :</string>
+    <string name="add_woman_page_birth_input">Dates :</string>
+    <string name="add_woman_page_description_input">@string/item_woman_description</string>
+    <string name="add_woman_page_activity_input">Domaine :</string>
+    <string-array name="add_woman_activity_spinner_input">
+        <item>Scientifique</item>
+        <item>Politique</item>
+        <item>Littéraire</item>
+        <item>Artiste</item>
+        <item>Sportive</item>
+    </string-array>
+
+
+    <string name="add_woman_page_confirm_button">Confirmer</string>
+
+    <!-- POPUP -->
+    <string name="popup_page_firstname_title">Alice</string>
+    <string name="popup_page_lastname_title">Ball</string>
+    <string name="popup_page_description_subtitle">Petite description</string>
+    <string name="popup_page_nationality_description">Guinéenne</string>
+    <string name="popup_page_activity_description">Scientifique</string>
+    <string name="popup_page_birth_description">1915–2002</string>
+
+    <!-- AJOUTER UN PROFIL -->
+    <string name="item_woman_firstname">Prénom</string>
+    <string name="item_woman_lastname">Nom</string>
+    <string name="item_woman_description">Description :</string>
+    <string name="item_woman_birth">Dates</string>
+    <string name="notification_channel_title">Girls&amp;History</string>
+    <string name="notification_channel_id">myCanal</string>
+    <string name="notification_channel_description">Un nouveau profil est disponible, venez vite le découvrir !</string>
+
+    <!-- PROFIL UTILISATEUR -->
+    <string name="item_user_logout_button">Déconnexion</string>
+    <string name="auto_connect_key">autoconnectkey</string>
+</resources>
